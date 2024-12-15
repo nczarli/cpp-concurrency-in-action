@@ -2,7 +2,7 @@
 #include <thread>
 
 void print_message(const std::string& message) {
-    for (int i = 0; i < 5; ++i) {
+    for (int i = 0; i < 100; ++i) {
         std::cout << message << " - iteration " << i + 1 << "\n";
     }
 }
